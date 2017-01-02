@@ -1,0 +1,13 @@
+# A33 quad core 512 Mb SoC
+BOARD_NAME="RFY A33 Tablet 800x480"
+LINUXFAMILY="sun8i"
+BOOTCONFIG="A33-OLinuXino_defconfig"
+MODULES="hci_uart gpio_sunxi rfcomm hidp bonding spi_sun7i 8021q a20_tp g_serial"
+MODULES_NEXT=""
+CLI_TARGET="jessie:next"
+KERNEL_TARGET="next"
+#
+BOARDRATING=""
+LEGACY="hide"
+HARDWARE=""
+FORUMS=""
